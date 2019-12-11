@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{D9F4BDFA-2934-43C7-A011-2091885BB706}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Hackathon2019</RootNamespace>
+    <AssemblyName>Hackathon2019</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Hackathon2019.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Hackathon2019.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\ForgotPassword.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="App_Data\Database1.mdf" />
+    <Content Include="App_Data\Database1_log.ldf">
+      <DependentUpon>Database1.mdf</DependentUpon>
+    </Content>
+    <Content Include="Contact.aspx" />
+    <None Include="Resources\1.jpg" />
+    <None Include="Resources\2.jpg" />
+    <Content Include="Pics\1.jpg" />
+    <Content Include="Pics\2.jpg" />
+    <Content Include="Pics\3.jpg" />
+    <Content Include="Pics\4.jpg" />
+    <Content Include="Pics\5.jpg" />
+    <Content Include="Pics\6.jpg" />
+    <Content Include="Pics\7.jpg" />
+    <Content Include="Resources\218-2183212_user-login-icon-png-user-access-icon.png" />
+    <None Include="Resources\3.jpg" />
+    <Content Include="Resources\93a8e9899d.png" />
+    <Content Include="Resources\admit patient.png" />
+    <Content Include="Resources\edit patient.png" />
+    <Content Include="Resources\hackathon-2019a.jpg" />
+    <Content Include="Resources\HB-25-29.png" />
+    <Content Include="Resources\HB11-15.png" />
+    <Content Include="Resources\HB18-22.png" />
+    <Content Include="Resources\KZNHealthLogo.png" />
+    <Content Include="Resources\patient record.png" />
+    <Content Include="Resources\patient triage.png" />
+    <Content Include="Resources\patient vitals.png" />
+    <Content Include="Restricted Access\Clerk\AboutClerk.aspx" />
+    <Content Include="Restricted Access\Clerk\AdmissionClerk.aspx" />
+    <Content Include="Restricted Access\Clerk\ContactClerk.aspx" />
+    <Content Include="Restricted Access\Clerk\DashboardClerk.aspx" />
+    <Content Include="Restricted Access\Clerk\DefaultClerk.aspx" />
+    <Content Include="Restricted Access\Clerk\NewPatientPage.aspx" />
+    <Content Include="Restricted Access\Clerk\UpdatePatientPage.aspx" />
+    <Content Include="Restricted Access\Doctor\AboutDoc.aspx" />
+    <Content Include="Restricted Access\Doctor\AddVitalsDoctor.aspx" />
+    <Content Include="Restricted Access\Doctor\AdmissionDR.aspx" />
+    <Content Include="Restricted Access\Doctor\Appointment.aspx" />
+    <Content Include="Restricted Access\Doctor\BillDR.aspx" />
+    <Content Include="Restricted Access\Doctor\ContactDoc.aspx" />
+    <Content Include="Restricted Access\Doctor\DashboardDoctor.aspx" />
+    <Content Include="Restricted Access\Doctor\DefaultDoc.aspx" />
+    <Content Include="Restricted Access\Nurse\AboutNurse.aspx" />
+    <Content Include="Restricted Access\Nurse\AddVitals.aspx" />
+    <Content Include="Restricted Access\Nurse\ContactNurse.aspx" />
+    <Content Include="Restricted Access\Nurse\DashboardNurse.aspx" />
+    <Content Include="Restricted Access\Nurse\DefaultNurse.aspx" />
+    <Content Include="Restricted Access\Nurse\Triage.aspx" />
+    <Content Include="Restricted Access\Nurse\ViewTriages.aspx" />
+    <Content Include="Scripts\Bootstrap 3.4.1\css\bootstrap-theme.css" />
+    <Content Include="Scripts\Bootstrap 3.4.1\css\bootstrap-theme.min.css" />
+    <Content Include="Scripts\Bootstrap 3.4.1\css\bootstrap.css" />
+    <Content Include="Scripts\Bootstrap 3.4.1\css\bootstrap.min.css" />
+    <Content Include="Scripts\Bootstrap 3.4.1\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\Bootstrap 3.4.1\js\bootstrap.js" />
+    <Content Include="Scripts\Bootstrap 3.4.1\js\bootstrap.min.js" />
+    <Content Include="Scripts\Bootstrap 3.4.1\js\npm.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\bootswatch\bootstrap.css" />
+    <Content Include="Scripts\bootswatch\bootstrap.min.css" />
+    <Content Include="Scripts\html5shiv.min.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jssor.slider-27.5.0.min.js" />
+    <Content Include="Styles\bootstrap.css" />
+    <Content Include="Styles\Contact.css" />
+    <Content Include="Styles\Help.css" />
+    <Content Include="Styles\main.css" />
+    <Content Include="Styles\packages.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\slider.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.vb">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.vb">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="App_Data\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\AboutClerk.aspx.designer.vb">
+      <DependentUpon>AboutClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\AboutClerk.aspx.vb">
+      <DependentUpon>AboutClerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\AdmissionClerk.aspx.designer.vb">
+      <DependentUpon>AdmissionClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\AdmissionClerk.aspx.vb">
+      <DependentUpon>AdmissionClerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\ContactClerk.aspx.designer.vb">
+      <DependentUpon>ContactClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\ContactClerk.aspx.vb">
+      <DependentUpon>ContactClerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\DashboardClerk.aspx.designer.vb">
+      <DependentUpon>DashboardClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\DashboardClerk.aspx.vb">
+      <DependentUpon>DashboardClerk.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\DefaultClerk.aspx.designer.vb">
+      <DependentUpon>DefaultClerk.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\DefaultClerk.aspx.vb">
+      <DependentUpon>DefaultClerk.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\NewPatientPage.aspx.designer.vb">
+      <DependentUpon>NewPatientPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\NewPatientPage.aspx.vb">
+      <DependentUpon>NewPatientPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\SiteClerk.Master.designer.vb">
+      <DependentUpon>SiteClerk.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\SiteClerk.Master.vb">
+      <DependentUpon>SiteClerk.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\UpdatePatientPage.aspx.designer.vb">
+      <DependentUpon>UpdatePatientPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Clerk\UpdatePatientPage.aspx.vb">
+      <DependentUpon>UpdatePatientPage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AboutDoc.aspx.designer.vb">
+      <DependentUpon>AboutDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AboutDoc.aspx.vb">
+      <DependentUpon>AboutDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AddVitalsDoctor.aspx.designer.vb">
+      <DependentUpon>AddVitalsDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AddVitalsDoctor.aspx.vb">
+      <DependentUpon>AddVitalsDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AdmissionDR.aspx.designer.vb">
+      <DependentUpon>AdmissionDR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\AdmissionDR.aspx.vb">
+      <DependentUpon>AdmissionDR.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\Appointment.aspx.designer.vb">
+      <DependentUpon>Appointment.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\Appointment.aspx.vb">
+      <DependentUpon>Appointment.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\BillDR.aspx.designer.vb">
+      <DependentUpon>BillDR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\BillDR.aspx.vb">
+      <DependentUpon>BillDR.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\ContactDoc.aspx.designer.vb">
+      <DependentUpon>ContactDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\ContactDoc.aspx.vb">
+      <DependentUpon>ContactDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\DashboardDoctor.aspx.designer.vb">
+      <DependentUpon>DashboardDoctor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\DashboardDoctor.aspx.vb">
+      <DependentUpon>DashboardDoctor.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\DefaultDoc.aspx.designer.vb">
+      <DependentUpon>DefaultDoc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\DefaultDoc.aspx.vb">
+      <DependentUpon>DefaultDoc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\SiteDoc.Master.designer.vb">
+      <DependentUpon>SiteDoc.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Doctor\SiteDoc.Master.vb">
+      <DependentUpon>SiteDoc.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\AboutNurse.aspx.designer.vb">
+      <DependentUpon>AboutNurse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\AboutNurse.aspx.vb">
+      <DependentUpon>AboutNurse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\AddVitals.aspx.designer.vb">
+      <DependentUpon>AddVitals.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\AddVitals.aspx.vb">
+      <DependentUpon>AddVitals.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\ContactNurse.aspx.designer.vb">
+      <DependentUpon>ContactNurse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\ContactNurse.aspx.vb">
+      <DependentUpon>ContactNurse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\DashboardNurse.aspx.designer.vb">
+      <DependentUpon>DashboardNurse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\DashboardNurse.aspx.vb">
+      <DependentUpon>DashboardNurse.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\DefaultNurse.aspx.designer.vb">
+      <DependentUpon>DefaultNurse.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\DefaultNurse.aspx.vb">
+      <DependentUpon>DefaultNurse.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\SiteNurse.Master.designer.vb">
+      <DependentUpon>SiteNurse.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\SiteNurse.Master.vb">
+      <DependentUpon>SiteNurse.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\ViewTriages.aspx.designer.vb">
+      <DependentUpon>ViewTriages.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\ViewTriages.aspx.vb">
+      <DependentUpon>ViewTriages.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site1.Master.designer.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site1.Master.vb">
+      <DependentUpon>Site1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\Triage.aspx.designer.vb">
+      <DependentUpon>Triage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Restricted Access\Nurse\Triage.aspx.vb">
+      <DependentUpon>Triage.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <None Include="App_Data\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="App_Data\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App_Data\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <Content Include="Site1.Master" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Restricted Access\Clerk\SiteClerk.Master" />
+    <Content Include="Restricted Access\Doctor\SiteDoc.Master" />
+    <Content Include="Restricted Access\Nurse\SiteNurse.Master" />
+    <None Include="Scripts\Bootstrap 3.4.1\css\bootstrap-theme.css.map" />
+    <None Include="Scripts\Bootstrap 3.4.1\css\bootstrap-theme.min.css.map" />
+    <None Include="Scripts\Bootstrap 3.4.1\css\bootstrap.css.map" />
+    <None Include="Scripts\Bootstrap 3.4.1\css\bootstrap.min.css.map" />
+    <None Include="Scripts\Bootstrap 3.4.1\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Scripts\Bootstrap 3.4.1\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="Scripts\Bootstrap 3.4.1\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="Scripts\Bootstrap 3.4.1\fonts\glyphicons-halflings-regular.woff2" />
+    <None Include="Scripts\bootswatch\bootswatch.less" />
+    <None Include="Scripts\bootswatch\variables.less" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51131</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
