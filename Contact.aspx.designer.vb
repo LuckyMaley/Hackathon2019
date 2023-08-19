@@ -12,7 +12,7 @@ Option Explicit On
 
 
 Partial Public Class Contact
-
+    
     '''<summary>
     '''HyperLink1 control.
     '''</summary>

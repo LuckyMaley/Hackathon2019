@@ -21,6 +21,6 @@
     <strong>Support:</strong>   <a href="mailto:Support@kznhealth.co.za">Support@kznhealth.co.za</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@kznhealth.co.za">Marketing@kznhealth.co.za</a>
 </address>
-
+    <div></div>
 
 </asp:Content>
