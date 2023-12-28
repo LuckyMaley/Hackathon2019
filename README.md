@@ -9,3 +9,5 @@ To develop and implement a sustainable, coordinated, integrated and comprehensiv
 
 # Guidelines
 ![Static Badge](https://img.shields.io/badge/Visual%20Studio-2015-green) ![Static Badge](https://img.shields.io/badge/.Net%20Framework-4-purple)
+
+
