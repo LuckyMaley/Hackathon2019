@@ -82,8 +82,12 @@ These are screenshots of the system in user by the various users of the system
 ![Screenshot (3996)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/d1a05896-ca13-48d8-af45-a880279a24a3)
 ![Screenshot (3997)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4dfdd9d8-9752-4403-ae52-ee5a3149fb1b)
 
+### Nurse
+
 
 ### Doctor
-
-### Nurse
+![Screenshot (3998)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/e538fcc5-5204-4008-9e7b-8c9ea391e338)
+![Screenshot (3999)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/66b21874-72aa-4b85-a9c5-ac2e1e5edd57)
+![Screenshot (4000)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/557fffbe-4f7c-4fd0-a686-e4ca32289cdd)
+![Screenshot (4001)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4427072a-d07d-4224-a02f-3ab937294b4e)
 
