@@ -10,19 +10,19 @@ To develop and implement a sustainable, coordinated, integrated and comprehensiv
 # Guidelines
 ![Static Badge](https://img.shields.io/badge/Visual%20Studio-2010%20or%20later-green) ![Static Badge](https://img.shields.io/badge/.Net%20Framework-4-purple)
 
-## Project Structure
+### Project Structure
 
 This project has two parts:
 
 - The Main ASP.NET project
 - The SQL local database
 
-## Main ASP.NET project (Healthcare Management System) 
+### Main ASP.NET project (Healthcare Management System) 
 
 - The project contains some public pages and restricted pages
 - Users such as clerks, doctors, and nurses can access the restricted pages.
 
-## SQL local database
+### SQL local database
 
 - The [App_Data folder](/App_Data) consists of all the database tables and views used in the project.
 - The [Database1.mdf](App_Data/ASPNETDB.MDF) consists of the actual database tables and views.
@@ -75,7 +75,7 @@ This project has two parts:
 
 These are screenshots of the system in user by the various users of the system
 
-## Clerk
+### Clerk
 
 ![Screenshot (3994)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/b037efba-5148-43ef-af4a-8868fda046f3)
 ![Screenshot (3995)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/453cb6b2-883d-4648-8249-67768f8b3b3d)
@@ -83,7 +83,7 @@ These are screenshots of the system in user by the various users of the system
 ![Screenshot (3997)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4dfdd9d8-9752-4403-ae52-ee5a3149fb1b)
 
 
-## Doctor
+### Doctor
 
-## Nurse
+### Nurse
 
