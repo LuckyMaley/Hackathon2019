@@ -39,10 +39,12 @@ This project has two parts:
 > Since this is a local database, there is no need to change anything however you need to be acquainted with how it is set up for when you want to update it from a local database to a live or production-ready database.
 - Firstly open the [App_Data folder](/App_Data) within the project.
   ![Screenshot (3979)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/5ece902f-dd60-4ac6-80be-083b53da53a3)
-- Double click on the [Database1.mdf](App_Data/ASPNETDB.MDF) file. On your left Server explorer will open up.
+- Double click on the [Database1.mdf](App_Data/ASPNETDB.MDF) file. On your left Server Explorer will open up.
 ![Screenshot (3980)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ce9c5489-99ac-4f4a-8d85-485c3d4eb35b)
 - Click the dropdown on the Tables folder and all the tables in the database will appear.
 ![Screenshot (3981)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/a491689c-6df5-46ab-94e2-c783c94244b4)
-- Double click on the users table to see the table definition (You can do the same for the other tables; if you want to recreate the database in a live or production-ready environment).
+- Double-click on the User table to see the table definition (You can do the same for the other tables to view them and if you want to recreate the database in a live or production-ready environment).
 ![Screenshot (3986)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/8968389d-9a22-4539-923c-d21e2ad2028d)
+- Go back to Server Explorer, right-click on the User table, and select Show Table Data.
+![Screenshot (3987)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ebd354fb-1da6-4786-921b-dcfd0bad5ad0)
 
