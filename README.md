@@ -52,11 +52,17 @@ This project has two parts:
 - You can also view the diagrammatic view of the database if you want to add specific queries to enhance the system's functionality. Just click on [Dataset1.xsd](App_Data/DataSet1.xsd) under the App_Data folder in the Solution Explorer.
 ![Screenshot (3990)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/76f1e2c7-3ee6-40d1-81c5-fea3dc3ee1ba)
 
-# Registration
+## Registration
 
 - Run the application by clicking the green play button.
 ![Screenshot (3991)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/9f917b32-211f-4c2e-b29e-6d3d6482704f)
 - Click the Register link on the navigation bar of the website.
 ![Screenshot (3991)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/3f001d4d-f084-4417-bd68-2a5cc2f8a7b0)
+- You can register as either a clerk, doctor, or nurse. For each user type, a persal number is required (You can put any number for the persal number just make sure it consists of 7 digits).
+![Screenshot (3992)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/70ddd1b3-7192-4f86-bf7c-cb0ffa0bc4be)
+- Once you have entered all your details, confirmed your password, and clicked Create user you will be redirected to the home page (refresh the page if an unexpected error occurs).
+![Screenshot (3993)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/29270931-7c3c-49b1-b0f1-728964282dc6)
+
+
 
 
