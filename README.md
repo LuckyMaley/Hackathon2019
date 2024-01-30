@@ -87,6 +87,10 @@ These are screenshots of the system in user by the various users of the system
 
 ![Screenshot (4002)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4e5c1a93-4cad-49e8-878c-5de03acf3a05)
 ![Screenshot (4003)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ff49bb7e-1c2b-496e-b701-a811fb7c5e44)
+![Screenshot (4006)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/a17547e6-c837-46fe-95ef-bb1232319515)
+![Screenshot (4005)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4741cc61-9e2d-4a2e-8771-9834196d6d29)
+![Screenshot (4004)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/aa4b76a2-6922-4cdf-98af-0393e5f67c04)
+![Screenshot (4007)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/de2c1b64-e2cd-4217-b15b-f414fef2e0e4)
 
 
 ### Doctor
