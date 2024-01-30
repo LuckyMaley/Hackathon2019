@@ -1,4 +1,4 @@
-![image](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/6bf06ed5-ec31-45b1-a81c-6de798b92492)# Hackathon2019
+# Hackathon2019
 
 This is an Asp.Net website using the visual basic programming language. It also uses a SQL database to store data generated from the system.
 
