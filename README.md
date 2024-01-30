@@ -43,4 +43,6 @@ This project has two parts:
 ![Screenshot (3980)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ce9c5489-99ac-4f4a-8d85-485c3d4eb35b)
 - Click the dropdown on the Tables folder and all the tables in the database will appear.
 ![Screenshot (3981)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/a491689c-6df5-46ab-94e2-c783c94244b4)
+- Double click on the users table to see the table definition (You can do the same for the other tables; if you want to recreate the database in a live or production-ready environment).
+![Screenshot (3986)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/8968389d-9a22-4539-923c-d21e2ad2028d)
 
