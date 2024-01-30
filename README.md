@@ -49,4 +49,7 @@ This project has two parts:
 ![Screenshot (3987)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ebd354fb-1da6-4786-921b-dcfd0bad5ad0)
 - You can view the data within the User table (You can do the same for the other pages).
 ![Screenshot (3988)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/5363d5f8-46c7-4830-8d62-70214d31aa32)
+- You can also view the diagrammatic view of the database if you want to add specific queries to enhance the system's functionality. Just click on [Dataset1.xsd](App_Data/DataSet1.xsd) under the App_Data folder in the Solution Explorer.
+![Screenshot (3990)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/76f1e2c7-3ee6-40d1-81c5-fea3dc3ee1ba)
+
 
