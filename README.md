@@ -26,4 +26,9 @@ This project has two parts:
 
 - The [App_Data folder](/App_Data) consists of all the database tables and views used in the project.
 - The [Database.mdf](App_Data/ASPNETDB.MDF) consists of the actual database tables and views.
-- The [Dataset1.xsd](App_Data/DataSet1.xsd) consists of a diagramic view of the db tables with the queries used in each table.
+- The [Dataset1.xsd](App_Data/DataSet1.xsd) consists of a diagrammatic view of the DB tables with the queries used in each table.
+- > **NOTE:** This is a local database; hence, if you copy this project and run it on a different machine, the database will contain data from your last updates to the DB. So if you update the DB from the first machine, the DB from the second machine will **NOT** have the updates. The local db works best if you're testing and not worried about the consistency in data whilst in the development stage.
+
+# Config
+
+
