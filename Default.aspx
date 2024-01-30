@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home" Language="vb" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Home" Language="vb" MasterPageFile="~/Site.master" AutoEventWireup="true" EnableEventValidation="false"
     CodeFile="Default.aspx.vb" Inherits="_Default" %>
 
 
@@ -17,7 +17,7 @@
  
 
     <div class="container" style="height: auto; width: 100%;" align="center">
-    
+        <div></div>
         <div class="slide" style="width: 100%" align="center">
             <div class="row">
                 <div class="container-fluid">
