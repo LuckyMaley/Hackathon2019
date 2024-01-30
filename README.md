@@ -20,7 +20,7 @@ This project has two parts:
 ### Main ASP.NET project (Healthcare Management System) 
 
 - The project contains some public pages and restricted pages
-- Users such as clerks, doctors, and nurses can access the restricted pages.
+- Users such as clerks, nurses, and doctors can access the restricted pages.
 
 ### SQL local database
 
@@ -58,7 +58,7 @@ This project has two parts:
 ![Screenshot (3991)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/9f917b32-211f-4c2e-b29e-6d3d6482704f)
 - Click the Register link on the navigation bar of the website.
 ![Screenshot (3991)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/3f001d4d-f084-4417-bd68-2a5cc2f8a7b0)
-- You can register as either a clerk, doctor, or nurse. For each user type, a persal number is required (You can put any number for the persal number just make sure it consists of 7 digits).
+- You can register as either a clerk, nurse, or doctor. For each user type, a persal number is required (You can put any number for the persal number just make sure it consists of 7 digits).
 ![Screenshot (3992)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/70ddd1b3-7192-4f86-bf7c-cb0ffa0bc4be)
 - Once you have entered all your details, confirmed your password, and clicked Create user you will be redirected to the home page (refresh the page if an unexpected error occurs).
 ![Screenshot (3993)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/29270931-7c3c-49b1-b0f1-728964282dc6)
@@ -70,6 +70,7 @@ This project has two parts:
 - The database can be a live or a cloud database. The system can be improved to make API calls to the cloud database. Cloud databases are useful as they are scalable, have low latency, always backed up and are always on.
 - The functionality of the persal numbers can be improved where persal numbers are stored on a cloud database and every time a user tries to register they're credentials can be validated with those persal numbers for greater security.
 - The user interface of the system can be improved to be more user friendly especially when it comes to the core functionality of every user type in the system.
+- The patients also need to be able to log in to view their records and book an appointment.
 
 # Screenshots
 
@@ -84,8 +85,12 @@ These are screenshots of the system in user by the various users of the system
 
 ### Nurse
 
+![Screenshot (4002)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4e5c1a93-4cad-49e8-878c-5de03acf3a05)
+![Screenshot (4003)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ff49bb7e-1c2b-496e-b701-a811fb7c5e44)
+
 
 ### Doctor
+
 ![Screenshot (3998)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/c3755758-da59-4c5f-8a5c-99185355e816)
 ![Screenshot (3999)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/66b21874-72aa-4b85-a9c5-ac2e1e5edd57)
 ![Screenshot (4000)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/557fffbe-4f7c-4fd0-a686-e4ca32289cdd)
