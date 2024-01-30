@@ -1,4 +1,4 @@
-# Hackathon2019
+![image](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/6bf06ed5-ec31-45b1-a81c-6de798b92492)# Hackathon2019
 
 This is an Asp.Net website using the visual basic programming language. It also uses a SQL database to store data generated from the system.
 
@@ -31,4 +31,6 @@ This project has two parts:
 
 # Config
 
-
+- (re)build application
+> (re)building the application will install required ASP packages from NuGet
+![Screenshot (3977)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ad22041d-502d-49d9-b939-c367a1a57613)
