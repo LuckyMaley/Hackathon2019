@@ -62,7 +62,28 @@ This project has two parts:
 ![Screenshot (3992)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/70ddd1b3-7192-4f86-bf7c-cb0ffa0bc4be)
 - Once you have entered all your details, confirmed your password, and clicked Create user you will be redirected to the home page (refresh the page if an unexpected error occurs).
 ![Screenshot (3993)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/29270931-7c3c-49b1-b0f1-728964282dc6)
+- You can now go to your dashboard and do the necessary operations.
+
+# Some noticeable improvements for future work
+
+- The system can be recreated in the newer versions of Visual Studio and it can utilise the power of the Entity Framework and migrations to simplify the system's interactiveness with the database and the ease of integration of the system.
+- The database can be a live or a cloud database. The system can be improved to make API calls to the cloud database. Cloud databases are useful as they are scalable, have low latency, always backed up and are always on.
+- The functionality of the persal numbers can be improved where persal numbers are stored on a cloud database and every time a user tries to register they're credentials can be validated with those persal numbers for greater security.
+- The user interface of the system can be improved to be more user friendly especially when it comes to the core functionality of every user type in the system.
+
+# Screenshots
+
+These are screenshots of the system in user by the various users of the system
+
+## Clerk
+
+![Screenshot (3994)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/b037efba-5148-43ef-af4a-8868fda046f3)
+![Screenshot (3995)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/453cb6b2-883d-4648-8249-67768f8b3b3d)
+![Screenshot (3996)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/d1a05896-ca13-48d8-af45-a880279a24a3)
+![Screenshot (3997)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/4dfdd9d8-9752-4403-ae52-ee5a3149fb1b)
 
 
+## Doctor
 
+## Nurse
 
