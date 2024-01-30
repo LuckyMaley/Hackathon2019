@@ -66,11 +66,11 @@ This project has two parts:
 
 # Some noticeable improvements for future work
 
-- The system can be recreated in the newer versions of Visual Studio and it can utilise the power of the Entity Framework and migrations to simplify the system's interactiveness with the database and the ease of integration of the system.
+- The system can be recreated in the newer versions of Visual Studio. It can utilise the power of the Entity Framework and migrations to simplify the system's interactiveness with the database and ease of integration.
 - The database can be a live or a cloud database. The system can be improved to make API calls to the cloud database. Cloud databases are useful as they are scalable, have low latency, always backed up and are always on.
-- The functionality of the persal numbers can be improved where persal numbers are stored on a cloud database and every time a user tries to register they're credentials can be validated with those persal numbers for greater security.
-- The user interface of the system can be improved to be more user friendly especially when it comes to the core functionality of every user type in the system.
-- The patients also need to be able to log in to view their records and book an appointment.
+- The functionality of the persal numbers can be improved where persal numbers are stored on a cloud database and every time a user tries to register their credentials can be validated with those persal numbers for greater security.
+- The system's user interface can be improved to be more user-friendly, especially regarding the core functionality of every user type.
+- The functionality for patients to log in to view their records and book an appointment must also be added.
 
 # Screenshots
 
