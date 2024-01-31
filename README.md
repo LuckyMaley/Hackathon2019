@@ -31,7 +31,7 @@ This project has two parts:
 
 # Config
 
-- To open project solution just double click on [Hackathon2019.sln](/Hackathon2019.sln) 
+- To open the project solution just double click on [Hackathon2019.sln](/Hackathon2019.sln) 
 
 - (re)build application
 > (re)building the application will install the required ASP.NET packages from NuGet
@@ -39,7 +39,7 @@ This project has two parts:
 
 - Database Setup
 - > **NOTE:** If you want to change the connection string to a live or production-ready database just go to the [web.config](/web.config) file and change the existing one to your database. Example of connection string below:
-```<add name="Database1ConnectionString" connectionString="Data Source= DatabaseServerName; Integrated Security=true;Initial Catalog= YourDatabaseName; uid=YourUserName; Password=yourpassword; " providerName="System.Data.SqlClient" />```  
+> ```<add name="Database1ConnectionString" connectionString="Data Source= DatabaseServerName; Integrated Security=true;Initial Catalog= YourDatabaseName; uid=YourUserName; Password=yourpassword; " providerName="System.Data.SqlClient" />```  
 - Firstly open the [App_Data folder](/App_Data) within the project.
 ![Screenshot (3979)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/5ece902f-dd60-4ac6-80be-083b53da53a3)
 - Double click on the [Database1.mdf](App_Data/ASPNETDB.MDF) file. On your left Server Explorer will open up.
