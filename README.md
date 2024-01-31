@@ -36,7 +36,8 @@ This project has two parts:
 ![Screenshot (3977)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/ad22041d-502d-49d9-b939-c367a1a57613)
 
 - Database Setup
-> Since this is a local database, there is no need to change anything however you need to be acquainted with how it is set up for when you want to update it from a local database to a live or production-ready database.
+> **NOTE** If you want to change the connection string to a live or production-ready database just go to the [web.config](/web.config) file and change the existing one to your database. Example of connection string below:
+> '<add name="Database1ConnectionString" connectionString="Data Source= DatabaseServerName; Integrated Security=true;Initial Catalog= YourDatabaseName; uid=YourUserName; Password=yourpassword; " providerName="System.Data.SqlClient" />'  
 - Firstly open the [App_Data folder](/App_Data) within the project.
 ![Screenshot (3979)](https://github.com/LuckyMaley/Hackathon2019/assets/58641501/5ece902f-dd60-4ac6-80be-083b53da53a3)
 - Double click on the [Database1.mdf](App_Data/ASPNETDB.MDF) file. On your left Server Explorer will open up.
