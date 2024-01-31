@@ -31,6 +31,7 @@ This project has two parts:
 
 # Config
 
+- Clone the project
 - To open the project solution just double click on [Hackathon2019.sln](/Hackathon2019.sln) 
 
 - (re)build application
